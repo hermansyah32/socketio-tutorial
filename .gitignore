@@ -1,0 +1,8 @@
+# Node modules
+node_modules
+
+# Output
+dist
+
+# Yarn lock
+yarn.lock
