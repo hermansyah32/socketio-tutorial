@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Real-time Chat App</title>
+    <meta
+      name="viewport"
+      content="width=device-width,minimum-scale=1,initial-scale=1"
+    />
+    <link rel="stylesheet" href="./public/app.css" />
+  </head>
+  <body>
+    <ul class="messages"></ul>
+    <form>
+      <input type="text" class="input" autocomplete="off" autofocus />
+      <button>Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./public/main.js"></script>
+  </body>
+</html>
